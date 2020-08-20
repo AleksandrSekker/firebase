@@ -1,0 +1,11 @@
+.image {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .image {
+    width: 70%;
+    margin: 2rem auto;
+  }
+}

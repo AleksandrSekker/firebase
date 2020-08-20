@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+}
+.signout {
+  background: red;
+}
+.home {
+  background: green;
+}
+button {
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}
