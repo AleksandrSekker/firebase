@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import firebase from 'firebase/app';
+import firebase, { app } from 'firebase/app';
 import { Redirect } from 'react-router-dom';
+import '../firebase';
 
-const config = {
-  apiKey: 'AIzaSyCGRG8_A7qQbfd8RuME4uLqGx0xla1C3-k',
-  authDomain: 'quickstart-1566490467182.firebaseapp.com',
-};
-firebase.initializeApp(config);
-
+app();
 export default class Login extends Component {
   state = {
     isSignedIn: false,
